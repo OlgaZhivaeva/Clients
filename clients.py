@@ -92,3 +92,4 @@ if __name__ == '__main__':
             change_client(cur, get_id(cur, 'al89@mail.ru'), email='al.bar89@mail.ru', phones=['+79101364555', '+79201583433'])
             delete_client(cur, get_id(cur, 'AlV@mail.ru'))
             find_client(cur, last_name='Смирнов')
+            find_client(cur, 'Ольга')
